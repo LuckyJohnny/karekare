@@ -1,0 +1,72 @@
+/* Form
+------------------------------------------*/
+input[type="email"],
+input[type="text"],
+textarea {
+  font-size: 1em;
+  background: linear-gradient(#6d6262, #1a1919);
+  border-right: 5px solid #272323;
+  border-bottom: 5px solid #272323;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 10px;
+  border-top: 2px solid #867b7b;
+  border-left: 2px solid #867b7b;
+  border-collapse: collapse;
+  outline: none;
+  color: white;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+  background: linear-gradient(#6d6262, #1a1919);
+  border-collapse: collapse;
+  color: #d3cccc;
+  border: 2px indent #463a3a;
+  padding: 0.5em 1em;
+  border-radius: 15px;
+  text-shadow: 1px 1px 3px rgba(198, 198, 198, 0.9);
+  /*text shadow x-value, y-value, and blur value then rgba */
+  margin-top: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(#6d6262, #1a1919);
+  border-radius: 10px;
+
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+  outline: 2px solid red;
+}
+
+p {
+  color: #d3cccc;
+}
+
+.box4 {
+  height: 700px;
+  margin-top: 8em;
+  margin-right: 2em;
+  padding: 0 1em;
+}
+
+.empty {
+  min-height: 260px;
+}
+@media screen and (min-width: 325px) {
+  .box4 {
+    height: 700px;
+    margin-top: 8em;
+    margin-right: 2em;
+    width: 40%;
+  }
+
+  .empty {
+    width: 60%;
+  }
+}

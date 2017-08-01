@@ -1,0 +1,26 @@
+.icons {
+  position:fixed;
+  bottom:0%;
+  right:0%;
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+
+.youtube {
+  background-image: url(../images/youtube.png);
+  width: 40px;
+  height:40px;
+}
+
+.instagram {
+  background-image: url(../images/insta.png);
+  width: 40px;
+  height:40px;
+}
+
+.facebook {
+  background-image: url(../images/face.png);
+  width: 40px;
+  height:40px;
+}

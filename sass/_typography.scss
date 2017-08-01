@@ -1,0 +1,20 @@
+h2 {
+  font-size: 60px;
+  color: #d3cccc;
+}
+
+@media screen and (min-width:325px) {
+  h2 {
+    padding-left: 2em;
+  }
+}
+
+h3 {
+  font-size: 35px;
+  color: #d3cccc;
+  text-align: left;
+}
+p {
+  color: #d3cccc;
+  text-shadow: 2px 2px black;
+}

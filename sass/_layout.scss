@@ -1,0 +1,98 @@
+body {
+  background: url(../images/background.png);
+  font-size: 16px;
+  font-family: "Chalkduster", Helvetica, sans-serif;
+  margin:0 0;
+
+
+
+}
+
+h1 {
+  color:#d3cccc;
+  font-size: 40px;
+}
+
+a {
+  color: #ff3323;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b4321a;
+}
+
+.container {
+  background-image: url(../images/kkpage1mob.png);
+  background-repeat: no-repeat;
+  width:100%;
+  min-height: 100vh;
+
+
+
+}
+
+@media screen and (min-width: 325px) {
+  .container {
+    background: url(../images/kkpage1new.png);
+    background-size: cover;
+    min-height: 900px;
+
+  }
+}
+/* make mobile first first with shots.*/
+
+
+.container2 {
+  background-image: url(../images/kkpage2mobile.png);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 325px) {
+  .container2 {
+    background: url(../images/kkpage2lrg.png);
+    background-size: cover;
+    min-height: 900px;
+    display:flex;
+    justify-content: flex-end;
+
+  }
+}
+
+.container3 {
+  background-image: url(../images/kkrecipemob.png);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+
+}
+
+@media screen and (min-width: 325px) {
+  .container3 {
+    background: url(../images/kkrecipe.png);
+    background-size: cover;
+    min-height: 900px;
+
+  }
+}
+
+.container4 {
+  background-image: url(../images/kkpage4mobile.png);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+
+
+}
+
+@media screen and (min-width: 325px) {
+  .container4 {
+    background: url(../images/kkpage4lrg.png);
+    background-size: cover;
+    min-height: 900px;
+    display:flex;
+    justify-content: flex-end;
+  }
+}

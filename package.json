@@ -1,0 +1,16 @@
+{
+  "name": "compile-sass",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "node-sass": "^4.5.3",
+    "parallelshell": "^3.0.1",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "sass": "node-sass --include-path scss sass/styles.scss css/styles.css",
+    "compile:css": "watch 'npm run sass' sass/",
+    "browser-sync": "browser-sync start --server --files .",
+    "compile:sync": "parallelshell 'npm run compile:css' 'npm run browser-sync'"
+  }
+}

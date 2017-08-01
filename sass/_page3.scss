@@ -1,0 +1,87 @@
+.box3 {
+  display: block;
+  justify-content: center;
+  align-content: space-around;
+  padding-top: 35em;
+
+  h2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 325px) {
+  .box3 {
+    height: 700px;
+    margin-right: 2em;
+    width: 80%;
+    padding-left: 4em;
+    padding-top: 4em;
+
+    h2 {
+      text-align: left;
+    }
+  }
+}
+/* Accordian
+------------------------------------------*/
+.accordian {
+  font-size: 1em;
+  padding: 1em;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-bottom: 0.2em;
+  color: #d3cccc;
+  font-size: 25px;
+  font-family: chalkduster;
+  border-radius: 15px;
+  margin-left: 6%;
+}
+
+.accordian:hover {
+  background: rgba(255, 255, 255, .2);
+  color: #b4321a;
+
+}
+
+.content {
+  /* max-height: 0; */
+  overflow: hidden;
+  transition: 0.6s;
+  width: 88%;
+  display: flex;
+  justify-content: space-around;
+  // margin-left: 2.5em;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+@media screen and (min-width:325px) {
+  .content {
+    margin-left: 2.5em;
+    width: 60%;
+  }
+  .accordian {
+    margin-left: 1.6em;
+  }
+}
+
+.accordian:after {
+  /*content: "\02795";*/
+  font-size: 0.8em;
+  float: left;
+}
+
+.active:after {
+  /*  content: "\2796";*/
+}
+
+.active:hover {
+  cursor: pointer;
+  // background: #eeeeee;
+}
+@media screen and (min-width:325px) {
+  .content .accordian {
+    width: 60%;
+  }
+}
